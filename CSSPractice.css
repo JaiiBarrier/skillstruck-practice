@@ -1,0 +1,26 @@
+h1:hover{
+  color:white;
+}
+body{
+  background-image:radial-gradient(#F2BAC9, #BAF2E9, #B0F2B4);
+  color:#ff2d00;
+}
+/*background is a radial gradient with pastels */
+img{
+  opacity:.8;
+}
+/*images are .5 opacity*/
+h1{
+  padding:20px;
+  border-radius: 5px;
+}
+/*changes color of the first header */
+.firstheader{
+  color:#9AD2CB;
+}
+.secondheader{
+  color:#EBD494;
+}
+.thirdheader{
+  color:#297373;
+}
