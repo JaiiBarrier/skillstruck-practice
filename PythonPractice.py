@@ -1,23 +1,9 @@
-import pygame
-pygame.init() 
+start = input("Would you like to launch the game? enter yes or no")
 
-X = 500
-Y = 500
-GREEN = (11, 194, 0)
-PINK = (249, 145, 255)
-
-
-DISPLAY = pygame.display.set_mode([X, Y])
-running = True
-
-while running:
-
-	DISPLAY.fill(GREEN)
-	
-	pygame.draw.rect(DISPLAY, GREEN, [150, 150, 100, 20],2)
-	pygame.draw.rect(DISPLAY, GREEN, [150, 150, 100, 20],2)
-	pygame.draw.rect(DISPLAY, GREEN, [150, 150, 100, 20],2)
-	pygame.draw.rect(DISPLAY, GREEN, [150, 150, 100, 20],2)
-	pygame.draw.rect(DISPLAY, GREEN, [150, 150, 100, 20],2)
-	pygame.draw.rect(DISPLAY, GREEN, [150, 150, 100, 20],2)
-	pygame.display.flip()
+def start_game():
+    if  start == "Yes":
+        print("Initialization Complete")
+    else:
+        print("Initialization Failed")
+		
+start_game()
